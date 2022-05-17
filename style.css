@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Unica+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  
+}
+
+* ::-webkit-scrollbar {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #24252a ;
+  text-decoration: none;
+  background: #24252a;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 10%;
+}
+
+nav h4 {
+  cursor: pointer;
+}
+
+nav .nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+nav .nav_links li a {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+nav .nav_links li a:hover {
+  color: #0088a9;
+}
+
+main {
+  min-height: calc(100vh - 4rem);
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+main .container {
+  text-align: center;
+}
+
+main .container h2,
+main .btn,
+main .color {
+  background-color: black;
+  border-radius: 6px;
+  padding: 1rem;
+  color: white;
+}
+
+main .btn {
+  margin-top: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+main .btn:hover {
+  cursor: pointer;
+  background-color: #0088a9;
+  border-color: #0088a9;
+}
+/*# sourceMappingURL=style.css.map */
